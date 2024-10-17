@@ -54,6 +54,11 @@ datasets
     └── ZY_HHK_gt6.mat
 
 ```
+
+## Usage
+
+You can download [datasets](https://doi.org/10.5281/zenodo.8105220) here.
+
 ## Note
 
 - The variable names of data and gt in .mat file are set as `Data` and `DataClass`.
