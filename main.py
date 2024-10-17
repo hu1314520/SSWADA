@@ -15,7 +15,7 @@ from utils_HSI import sample_gt, metrics
 from datasets import get_dataset, HyperX
 import torch.utils.data as data
 from domain_discriminator import DomainDiscriminator
-from iwan import ImportanceWeightModule
+from wad import ImportanceWeightModule
 from dann import DomainAdversarialLoss
 import scipy.io as io
 from FeatureNet import Features, ResClassifier
