@@ -62,3 +62,18 @@ You can download [datasets](https://doi.org/10.5281/zenodo.8105220) here.
 ## Note
 
 - The variable names of data and gt in .mat file are set as `Data` and `DataClass`.
+
+## Paper
+
+Please cite our paper if you find the code or dataset useful for your research.
+
+@article{HUANG202337,
+title = {Cross-scene wetland mapping on hyperspectral remote sensing images using adversarial domain adaptation network},
+journal = {ISPRS Journal of Photogrammetry and Remote Sensing},
+volume = {203},
+pages = {37-54},
+year = {2023},
+issn = {0924-2716},
+doi = {https://doi.org/10.1016/j.isprsjprs.2023.07.009},
+author = {Yi Huang and Jiangtao Peng and Na Chen and Weiwei Sun and Qian Du and Kai Ren and Ke Huang}
+}
