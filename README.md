@@ -1,5 +1,7 @@
 # Cross-Scene Wetland Mapping on Hyperspectral Remote Sensing Images using Adversarial Domain Adaptation Network
 
+paper web:([https://www.sciencedirect.com/science/article/abs/pii/S0924271623001909].
+
 <p align='center'>
   <img src='figure/SSWADA.png' width="800px">
 </p>
