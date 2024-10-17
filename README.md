@@ -1,5 +1,9 @@
 # Cross-Scene Wetland Mapping on Hyperspectral Remote Sensing Images using Adversarial Domain Adaptation Network
 
+<p align='center'>
+  <img src='figure/SSWADA.png' width="800px">
+</p>
+
 ## Abstract
 
 Wetlands are one of the most important ecosystems on the Earth, and using hyperspectral remote sensing (RS) technology for fine wetland mapping is important for restoring and protecting the natural resources of coastal wetlands. However, the high cost in collecting labeled samples and inconsistent acquisition conditions across different geographic regions or scenes lead to difficulties in wetland mapping and classification.
