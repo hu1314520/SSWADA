@@ -253,36 +253,6 @@ def get_dataset(dataset_name, target_folder="./", datasets=DATASETS_CONFIG):
         label_values = ['Water','Land/Building','Plant']
 
         ignored_labels = [0]
-    elif dataset_name == 'Dioni':
-        # Load the image
-        img = open_file(folder + 'Dioni.mat')['ori_data'][:, :, :144]
-
-        rgb_bands = (43, 21, 11)
-
-        gt = open_file(folder + 'Dioni_gt_out68.mat')['map']
-
-        label_values = ["1", "2", "3",
-                        "4", "5",
-                        "6", "7",
-                        "8", "9", "10",
-                        "11", "12"]
-
-        ignored_labels = [0]
-    elif dataset_name == 'Loukia':
-        # Load the image
-        img = open_file(folder + 'Loukia.mat')['ori_data'][:, :, :144]
-
-        rgb_bands = (43, 21, 11)
-
-        gt = open_file(folder + 'Loukia_gt_out68.mat')['map']
-
-        label_values = ["1", "2", "3",
-                        "4", "5",
-                        "6", "7",
-                        "8", "9", "10",
-                        "11", "12"]
-                        
-        ignored_labels = [0]
     else:
         # Custom dataset
         img, gt, rgb_bands, ignored_labels, label_values, palette = CUSTOM_DATASETS_CONFIG[dataset_name]['loader'](folder)
